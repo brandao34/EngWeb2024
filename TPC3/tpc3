@@ -1,0 +1,38 @@
+
+Pagina do FILME: 
+    Filme 
+	cast #		( se possivel, se a informação for limpa, mandar para a pagina do ator ) 
+	genero # 
+	titlo 
+	year
+	
+	
+	TP3: 
+	
+	1. Análise do dataset e criacao de BD em json.server; ( ficheiro ja esta em jason) 
+	( cuidado ao meter as coisas no jason server; ver o que o stor pede depois ) 
+------->	OBJETIVOS, CONSULTAS RAPIDAS 
+	
+	2. Serviço que responde às seguintes rotas: 
+	GET /filmes - listagem de filmes (cada entrada é link para a pagina do filme)
+	    /filmes/idFilme 
+	    
+
+	    /generos
+	    /generos/idGen
+	    
+	    /ator 
+	    /ator/idAtor
+	    
+---------------------------------------------------------------------------------------------------------------
+
+O ficheiro filmes.json esta organizado por filmes, Para fazer a pagina de filmes da para usar sem alterar 
+
+depois para a pagina do genero e cast tenho de alterar o json server para conseguir fazer
+
+---------------------------------------------------------------------------------------------------------------
+	Fazer pagina filme 
+	
+	
+
+	
