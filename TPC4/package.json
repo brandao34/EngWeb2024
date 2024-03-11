@@ -1,0 +1,11 @@
+{
+  "name": "tpc4",
+  "version": "1.0.0",
+  "description": "Implementar um serrviço com as operaçoes de CRUD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GB",
+  "license": "ISC"
+}
