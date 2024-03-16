@@ -1,0 +1,30 @@
+extends layout
+
+block content
+  .w3-card-4 
+    header.w3-container.w3-pink
+      h1= titulo 
+    .w3-container 
+      table.w3-table                 
+        tr
+          th Id 
+          th Nome 
+          th BIO 
+          th Data de Nascimento 
+          th Data de Obito 
+          th Periodo
+        each al in lista 
+          tr 
+            td
+              a(href="/compositores/" + al.id) #{al.id}
+            td=al.nome 
+            td=al.bio 
+            td=al.dataNasc
+            td=al.dataObito
+            td 
+              a(href=al.periodo) #{al.periodo} 
+            td    
+              a.w3-button.w3-blue(href="/compositores/edit/" + al.id) Editar 
+              a.w3-button.w3-red(href="/compositores/delete/" + al.id) Apagar
+    footer.w3-container.w3-pink 
+      address Gerado por EngWeb 2024 em #{data}
